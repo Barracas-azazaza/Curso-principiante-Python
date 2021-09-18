@@ -1,7 +1,7 @@
 # PD: El pc que se vaya a usar debe tener sqlite3 para que funcione y la librería tkinter para python
 # PD4: ********************** Hecho por Camilo Andrés Barragán Gómez ******************************
 #pip install pyinstaller
-#pyinstaller programa.py
+#pyinstaller --windowed(para que no abra cmd) --onefile(para que todo quede en un archivo) Productos.py
 #enviar bd con la tabla, muy importante que la tabla esté en el mismo archivo donde se ejecute el programa .exe o .py
 #Después en la carpeta dist que se generó, abra el ejecutable
 from tkinter import ttk #Importar el ttk
