@@ -1,5 +1,8 @@
 # PD: El pc que se vaya a usar debe tener sqlite3 para que funcione y la librería tkinter para python
 # PD4: ********************** Hecho por Camilo Andrés Barragán Gómez ******************************
+#pip install pyinstaller
+#pyinstaller programa.py
+#enviar bd con la tabla, muy importante que la tabla esté en el mismo archivo donde se ejecute el programa .exe o .py
 from tkinter import ttk #Importar el ttk
 from tkinter import * #Importar todo de tkiner
 import sqlite3 #Importar la base de datos
