@@ -3,6 +3,7 @@
 #pip install pyinstaller
 #pyinstaller programa.py
 #enviar bd con la tabla, muy importante que la tabla esté en el mismo archivo donde se ejecute el programa .exe o .py
+#Después en la carpeta dist que se generó, abra el ejecutable
 from tkinter import ttk #Importar el ttk
 from tkinter import * #Importar todo de tkiner
 import sqlite3 #Importar la base de datos
